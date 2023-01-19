@@ -68,7 +68,7 @@ console.log(toCelcius(50));
     //     return array.filter((num) => num < 0).map(num=>num**2)
     // };
 
-    const squareNegatives = array => array.filter(num => num < 2).map(num => num**2)
+    const squareNegatives = array => array.filter(num => num < 0).map(num => num**2)
 
     console.log(squareNegatives([-10, -3, 4, -2, 8, 9, -3]))
     console.log(squareNegatives([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]))
